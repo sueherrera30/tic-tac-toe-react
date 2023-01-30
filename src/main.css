@@ -1,0 +1,117 @@
+#root {
+  width: 100%;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.pusheen {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color:hotpink;
+  font-size: 24px;
+}
+
+
+.game {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  min-height: 260px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game ol,
+.game ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.restart {
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+  color: hotpink;
+  padding: 10px;
+  min-width: 150px;
+  border: solid 0.5px hotpink;
+
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 65px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 65px;
+}
+
+.game-info {
+  margin-left: 20px;
+  min-width: 190px;
+}
+.mode-button-container {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+}
+.mode-button {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mode-button p {
+  font-size: 18px;
+  padding-left: 8px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 200px;
+  height: auto;
+  padding: 20px;
+}
+.buttons {
+  font-family: 'Quicksand', sans-serif;
+  background-color: transparent;
+  border-radius: 50px;
+  color: hotpink;
+  min-width: 150px;
+  margin: 2px;
+  outline:none;
+  padding: 4px;
+  border: none;
+}
+.icon {
+  width: 50px;
+  height: auto;
+}
+
